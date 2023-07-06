@@ -1,0 +1,106 @@
+{
+	"name": "Arcane Empowerment",
+	"level": 1,
+	"school": "V",
+	"time": [
+		{
+			"number": 1,
+			"unit": "bonus"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "self"
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1,
+				"upTo": true
+			},
+			"concentration": true
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Wizard",
+				"source": "PHB"
+			},
+			{
+				"name": "Beast Tamer",
+				"source": "PHB"
+			},
+			{
+				"name": "Warlock",
+				"source": "PHB"
+			},
+			{
+				"name": "Artificer",
+				"source": "PHB"
+			},
+			{
+				"name": "Sorcerer",
+				"source": "PHB"
+			},
+			{
+				"name": "Druid",
+				"source": "PHB"
+			},
+			{
+				"name": "Ranger",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You tap into the forces of your own body, empowering your spells with increased damage potential. When you cast this spell, choose one damage type, acid, cold, fire, force, lightning, necrotic, poison, radiant, or thunder. For the duration of this spell, whenever you deal damage of the chosen type with a spell you cast, roll an additional damage die of that type and add it to the total damage dealt."
+	],
+	"source": "AbsoluteChaosofAvestea",
+	"subschools": [
+		"Boost Magic"
+	],
+	"components": {
+		"v": true,
+		"s": true,
+		"r": true
+	},
+	"entriesHigherLevel": [
+		{
+			"type": "entries",
+			"name": "At Higher Levels",
+			"entries": [
+				"When you cast this spell using a spell slot of 2nd level or higher, the additional damage die increases to one extra dice of the chosen type for each slot level above 1st. to a maximum of 3rd level"
+			]
+		}
+	],
+	"damageInflict": [
+		"acid",
+		"cold",
+		"fire",
+		"force",
+		"lightning",
+		"necrotic",
+		"poison",
+		"radiant",
+		"thunder"
+	],
+	"areaTags": [
+		"ST"
+	],
+	"miscTags": [
+		"SCL",
+		"UBA"
+	],
+	"fluff": {
+		"entries": [
+			"As the spellcaster utters the incantation for Arcane Empowerment, their voice takes on a resonating, chaotic quality. A surge of raw power envelops them, crackling with vibrant colors that seem to dance in the air around them. The caster's eyes briefly flash with a fleeting glimpse of the turbulent forces of their will.",
+			"With newfound power coursing through their veins, the caster raises their hands, their fingertips glowing with a faint aura matching the chosen damage type. As they prepare to cast a spell, the ambient energy surges into their arcane focus or extends from their fingertips, intertwining with the spell's magical essence.",
+			"When the spell is released, the caster's chosen damage type erupts with amplified intensity. Flames burn hotter and brighter, crackling with sparks of chaotic energy. Bolts of lightning sizzle and writhe with a frenetic, unpredictable nature. Frost spells release biting gusts of wind that carry an essence of unruly blizzards. No matter the chosen damage type, it crackles and flares with an additional surge of raw power."
+		]
+	}
+}
